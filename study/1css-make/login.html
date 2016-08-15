@@ -1,0 +1,175 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>КорутоТРИ</title>
+<meta http-equiv="Content-Type" content="text/html; charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<h3>
+<a href="a-index.html"> 
+КорутоТРИ
+</a>
+</h3>
+
+<ul class="menu1">
+<li>
+<a href="text.html">
+Статьи</a>
+</li>
+<li>
+<a href="catalog.html">
+Каталог
+</a>
+</li>
+<li>
+<a href="picture.html">
+Галерея изображений</a>
+</li>
+<li>
+Регистрация
+</li>
+<li>
+<a href="contacts.html">
+Контакты</a>
+</li>
+</ul>
+
+<form action=“file.php“
+method=“post”
+enctype="multipart/form-data">
+
+<table>
+<tr>
+<td>
+<label for="check1">Фамилия</label>
+</td>
+<td>
+<input type="text" size="" value="Фамилия" style="text-transform: capitalize;" id="check1"/>
+</td>
+</tr>
+<tr>
+<td>
+<label for="check2">Имя</label>
+</td>
+<td>
+<input type="text" size="" value="Имя" style="text-transform:capitalize" id="check2"/>
+</td>
+</tr>
+<tr>
+<td>
+<label for="check3">Отчество</label>
+</td>
+<td>
+<input type="text" size="" value="Отчество" style="text-transform:capitalize" id="check3"/>
+</td>
+</tr>
+<tr>
+<td>
+Проба
+</td>
+<td>
+<input type="text" size="40" placeholder="Полупрозрачный текст в input" style="text-transform:capitalize" />
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+	<fieldset style="width:25%">
+		<legend>Добавьте фотографию
+		</legend>
+   <input type="file" name="photo" multiple accept="image/*,image/jpeg"> <br/>
+	</fieldset>
+</td>
+</tr>
+	
+  <tr>
+	<td>
+  Адрес электронной почты
+</td>
+<td>
+<input type="email" value="">
+</td>
+</tr>
+
+<tr>
+<td>
+Пароль
+</td>
+<td>
+<input type="password" value="">
+</td>
+</tr>
+
+<tr>
+<td>
+Адрес сайта 
+</td>
+<td>
+<input type="url" value="http://">
+</td>
+</tr>
+
+<tr>
+<td>
+Выберите пол
+</td>
+<td>
+<label class="tet"><input type="radio" name="sex" value="male"> male </label><Br/>
+<label class="tet"><input type="radio" name="sex" value="female"> female </label><Br/>
+</td>
+</tr>
+
+<tr>
+<td>
+Выберите дату рождения
+</td>
+<td>
+<input type="date" name="calendar" value="1900-06-01" max="2100-06-04" min="2012-05-29">
+</td>
+</tr>
+
+<tr>
+<td>
+Подписка:
+</td>
+<td>
+<label class="tet"><input type="checkbox" name="genre" value="a1"> комедия </label><br/>
+<label class="tet"><input type="checkbox" name="genre" value="a2"> драма </label><br/>
+<label class="tet"><input type="checkbox" name="genre" value="a3"> мелодрама </label><br/>
+<label class="tet"><input type="checkbox" name="genre" value="a4"> ужасы </label><br/>
+<label class="tet"><input type="checkbox" name="genre" value="a5"> биография </label><br/>
+<label class="tet"><input type="checkbox" name="genre" value="a6"> детектив </label><br/>
+<label class="tet"><input type="checkbox" name="genre" value="a7"> вестерн </label><br/>
+<label class="tet"><input type="checkbox" name="genre" value="a8"> боевик </label><br/>
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+О себе в произвольной форме
+<br/>
+<textarea name=“title” >
+</textarea>
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="reset" value="Очистить" id>
+</td>
+<td>
+<input type="submit" value="Зарегистрироваться">
+</td>
+</tr>
+
+</table> 
+</form>
+<br/>
+<footer>
+<br/>Copyright Kononov Aleksey &copy;
+</footer>
+</body>
+</html>

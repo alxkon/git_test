@@ -1,0 +1,151 @@
+body {
+	background-image: url(../img/background.jpg);
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-color: RGB(204, 230, 247)
+	}
+	
+ul.menu1 li a {
+	width: 200px;
+	height: 300px;
+	font-family: impact, fantasy;
+	color: RGB(171, 66, 176);
+	font-style: italic;
+	font-variant: small-caps;
+	font-size: 20px;
+	background-color: RGB(237, 235, 135)
+	}
+
+ul.menu1 {
+	list-style-type: none;
+	}
+
+a[href="index.html"]{
+	color: black;
+	text-decoration: none;
+	}
+	
+a[href="index.html"]:hover {
+	text-decoration: underline;
+	}
+	
+h4 a {
+	color: green;
+	text-decoration: none;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	border-bottom: 2px solid black;
+	}
+	
+p.reduct{
+	background-color: RGB(192, 192, 192)
+	}
+	
+a.next:hover {
+	text-decoration: none;
+	color:  RGB(255, 0, 0);
+	}
+	
+a.comm {
+	color: RGB(128, 64, 0);
+	}
+	
+h3.head2 {
+	text-align: center;
+	}
+
+p:first-letter {
+	color: red;
+	font: oblique small-caps 900 25px Gill Sans, sans-serif;
+	
+	}
+	
+ul.list1 {
+	width: 500px;
+	height: 625px;
+	list-style-image: url(../img/movie.png);
+	font-size: x-large;
+	background-color: RGB(34, 177, 76)
+	}
+	
+ul.list2 li {
+	width: 400px;
+	height: 30px;
+	list-style-image: url(../img/smile.png);
+	font-size: medium;
+	background-color: rgb(181, 230, 29);
+	}
+	
+li.cult:after {
+	content: "cult";
+	background-color: red;
+	color: white;
+	padding: 3px;
+	
+	}
+	
+body.gag {
+	background-image: url(../img/redblock.jpg);
+	background-position: right top;
+	background-repeat: repeat;
+	color: white;
+	font-size: 20px;
+	}
+	
+body.gag a[href="index.html"] {
+	color: white;
+	
+	}
+	
+img.tort {
+	border-style: solid;
+	border-color: green;
+	border-width: 7px
+	}
+	
+img.tort:hover {
+	border-color: transparent;
+	}
+	
+input[type="text"]{
+	width: 200px;
+	}
+	
+input[type="password"]{
+	width: 100px;
+	}
+	
+input[type="email"]:focus {
+	background:orange;
+	color:green;
+	}
+	
+input[type="reset"]:active {
+	background:yellow
+	}
+	
+input[type="submit"]:active {
+	background:green
+	}
+	
+label.tet:hover {
+	border-style: dashed;
+	border-color: red;
+	border-width: 2px
+	}
+		
+table {
+	border: 1px solid black; 
+	border-collapse: collapse;
+	padding: 5px
+	}
+	
+td {
+	border: 1px solid black; 
+	padding: 5px
+	}
+	
+tr {
+	border: 1px solid black; 
+	padding: 5px
+
+	}

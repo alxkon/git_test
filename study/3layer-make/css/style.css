@@ -1,0 +1,147 @@
+body {
+	background-color: #feff89;
+	margin: 0px;
+	}
+
+.first {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+	position: relative;
+	background-color: red;
+	margin: 60px;
+	z-index: 100;
+	}
+	
+.one {
+	height: 100px;
+	width: 100px;
+	background-color: green;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	}
+
+.two {
+	height: 100px;
+	width: 100px;
+	background-color: black;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	}
+	
+.three {
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	position: relative;
+	left: 100px;
+	top: -200px;
+	right: -100px;
+	bottom: 100px;
+	}	
+
+.four {
+	height: 100px;
+	width: 100px;
+	background-color: brown;
+	position: relative;
+	left: 100px;
+	top: -200px;
+	}
+ 	
+.second {
+	height: 140px;
+	width: 340px;
+	border: 1px solid black;
+	background-color: gray;
+	position: relative;
+	padding: 30px;
+	top: -262px;
+	left: 282px;
+	z-index: 100;
+	}
+	
+.inside {
+	height: 140px;
+	width: 340px;
+	background-color: red;
+	}
+	
+.blue1 {
+	height: 140px;
+	width: 140px;
+	background-color: blue;
+	position: absolute;
+	top: 200px;
+	left: 202px;
+	z-index: 50;
+	}
+	
+.blue2 {
+	height: 140px;
+	width: 140px;
+	background-color: blue;
+	position: absolute;
+	top: 200px;
+	left: 365px;
+	z-index: 150;
+	}
+
+.blue3 {
+	height: 140px;
+	width: 140px;
+	background-color: blue;
+	position: absolute;
+	top: 200px;
+	left: 528px;
+	z-index: 50;
+	}
+	
+#menu {
+	background-color: brown;
+	display: inline-block;
+	padding: 5px;
+	position: absolute;
+	top: 340px;
+	left: 0px;
+	margin: 60px;
+	}
+	
+.punkt {
+	height: 140px;
+	width: 140px;
+	background-color: red;
+	float: left;
+	margin: 5px;
+	padding: 10px;
+	border: 3px solid transparent;
+	}
+
+.punkt:hover {
+	border: 3px solid green;
+	}
+	
+.punkt_menu {
+	height: 50px;
+	width: 100%;
+	}
+	
+.punkt_menu a { 	
+	display: inline-block;
+	padding: 16px 42px;
+	color: green;
+	background-color: orange;
+	text-decoration: none;
+	}
+	
+.punkt:hover a {
+	color: orange;
+	background-color: green;
+	}
+
+.punkt_menu img {
+	display: inline-block;
+	padding: 5px 25px;
+	}
